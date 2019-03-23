@@ -30,7 +30,8 @@ using namespace impala_udf;
 void DistHashSetInit(FunctionContext* context, StringVal* val);
 void DistHashSetUpdate(FunctionContext* context, const StringVal& input, StringVal* val);
 void DistHashSetMerge(FunctionContext* context, const StringVal& src, StringVal* dst);
-const StringVal DistHashSetSerialize(FunctionContext* context, const StringVal& val);
+//AR
+StringVal DistHashSetSerialize(FunctionContext* context, const StringVal& val);
 StringVal DistHashSetFinalize(FunctionContext* context, const StringVal& val);
 
 

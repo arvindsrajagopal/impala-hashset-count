@@ -14,9 +14,10 @@ The data types for the udf function context has changed between these versions, 
 
 #### To build: 
 
-1. Install the impala udf development package: <http://archive.cloudera.com/cdh5/>
-2. cmake .
-3. make
+1. Additional dependencies that may be needed - boost-devel,gcc,gcc-c++,cmake,make
+2. Install the impala udf development package: <http://archive.cloudera.com/cdh5/>
+3. cmake .
+4. make
 
 The UDA will get built to "build" directory, there is a test executable which runs some very basic tests locally, and an .so which you can use to install the function on the Impala cluster.
 
